@@ -1,8 +1,8 @@
 export default function LearnPage() {
     return (
-    <div className="bg-white h-screen p-6 flex flex-col gap-4 items-center">
-        <div className="grid grid-cols-2 gap-4 max-w-5xl w-full">  
-            <div className="bg-blue-100 h-72 p-8 flex flex-col justify-between rounded-2xl"> 
+    <div className="bg-white h-screen p-10 flex flex-col gap-8 items-center">
+        <div className="grid grid-cols-2 gap-6 max-w-5xl w-full">  
+            <div className="bg-blue-100 h-72 p-6 flex flex-col justify-between rounded-2xl"> 
                 <div className="flex gap-2">
                     <img src={"/palette.svg"} alt="icon palette"/>
                     <p>Design</p>
@@ -15,8 +15,9 @@ export default function LearnPage() {
 
             <div className="bg-green-100 h-72 p-8 flex flex-col justify-between rounded-2xl"> 
                 <div className="flex gap-2">
-                    <img src={"/terminal-2.svg"} alt="icon terminal"/>
+                    <img src={"/terminal-2.svg"} alt="icon terminal-2"/>
                     <p>AI</p>
+                    <img className="ml-auto" src={"/star.svg"} alt="icon star"/>
                 </div>
                 <div>
                     <h1 className="text-4xl font-bold">DALL·E 2, Midjourney, Stable Diffusion</h1>
@@ -40,7 +41,7 @@ export default function LearnPage() {
             <div className="bg-orange-100 h-72 p-8 flex flex-col justify-between rounded-2xl"> 
                 <div className="flex gap-2">
                     <img src={"/code.svg"} alt="icon code"/>
-                    <p>Codding</p>
+                    <p>Coding</p>
                 </div>
                 <div>
                     <h1 className="text-4xl font-bold">Python</h1>
@@ -48,7 +49,7 @@ export default function LearnPage() {
                 </div>
             </div>
 
-            <div className="bg-pink-100 h-72  p-8 flex flex-col justify-between rounded-2xl"> 
+            <div className="bg-pink-100 h-72 p-8 flex flex-col justify-between rounded-2xl"> 
                 <div className="flex gap-2">
                     <img src={"/palette.svg"} alt="icon palette"/>
                     <p>Design</p>
