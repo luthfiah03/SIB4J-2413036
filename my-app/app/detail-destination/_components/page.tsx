@@ -1,4 +1,4 @@
-import CardScheduleDestination from "./_components/CardScheduleDestination";
+import CardScheduleDestination from "./CardScheduleDestination";
 
 export default function DetailDestination() {
   return (
