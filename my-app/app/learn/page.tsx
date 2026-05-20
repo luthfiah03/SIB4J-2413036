@@ -23,7 +23,7 @@ export default function LearnPage() {
             </div>
         </div>
 
-        <div className="bg-blue-300 h-72 w-96 p-8 flex flex-col justify-between rounded-2xl"> 
+        <div className="bg-purple-300 h-72 w-96 p-8 flex flex-col justify-between rounded-2xl"> 
             <div className="flex gap-4">
                 <img src={"/palette.svg"} alt="icon palette"/>
                 <p>Design</p>
