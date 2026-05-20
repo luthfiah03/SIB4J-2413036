@@ -11,6 +11,7 @@ export default function sidebar () {
                     <h2 className="text-xl font-bold text-white">
                         Acme Inc
                     </h2>
+                    
                     <p className="text-sm text-white font-sans">
                         Enterprise
                     </p>
