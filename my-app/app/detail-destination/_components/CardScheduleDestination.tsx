@@ -5,7 +5,7 @@ export default function CardScheduleDestination() {
   return (
     <div className="flex bg-white border">
 
-      <div className="border-r px-4 py-3 min-w">
+      <div className="border-r px-4 py-3">
         <Date day="Sel, 19 Mei 2026"/>
         <Price price="IDR 4.156.740"/>
       </div>
